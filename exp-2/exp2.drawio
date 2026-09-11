@@ -52,16 +52,13 @@
         <mxCell id="e3" edge="1" parent="1" source="api" style="edgeStyle=orthogonalEdgeStyle;rounded=1;endArrow=classic;html=1;" target="auth">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="e4" edge="1" parent="1" source="api" style="edgeStyle=orthogonalEdgeStyle;rounded=1;endArrow=classic;html=1;" target="catalog">
+        <mxCell id="e4" edge="1" parent="1" source="auth" style="edgeStyle=orthogonalEdgeStyle;rounded=1;endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="catalog">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="e5" edge="1" parent="1" source="api" style="edgeStyle=orthogonalEdgeStyle;rounded=1;endArrow=classic;html=1;" target="recommendation">
+        <mxCell id="e6" edge="1" parent="1" source="auth" style="edgeStyle=orthogonalEdgeStyle;rounded=1;endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="playback">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="e6" edge="1" parent="1" source="api" style="edgeStyle=orthogonalEdgeStyle;rounded=1;endArrow=classic;html=1;" target="playback">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="e7" edge="1" parent="1" source="api" style="edgeStyle=orthogonalEdgeStyle;rounded=1;endArrow=classic;html=1;" target="payment">
+        <mxCell id="e7" edge="1" parent="1" source="auth" style="edgeStyle=orthogonalEdgeStyle;rounded=1;endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="payment">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="e8" edge="1" parent="1" source="auth" style="edgeStyle=orthogonalEdgeStyle;rounded=1;endArrow=classic;html=1;" target="userdb">
@@ -76,18 +73,28 @@
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1290" y="350" />
-              <mxPoint x="970" y="350" />
+              <mxPoint x="900" y="350" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="e10" edge="1" parent="1" source="playback" style="edgeStyle=orthogonalEdgeStyle;rounded=1;endArrow=classic;html=1;" target="progressdb">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1010" y="470" />
+              <mxPoint x="1230" y="470" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="e11" edge="1" parent="1" source="objectstore" style="edgeStyle=orthogonalEdgeStyle;rounded=1;endArrow=classic;html=1;" target="cdn">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="e12" edge="1" parent="1" source="payment" style="edgeStyle=orthogonalEdgeStyle;rounded=1;endArrow=classic;html=1;" target="userdb">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1290" y="500" />
+              <mxPoint x="710" y="500" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="ifuIO5erZAr4vruJZzo0-2" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;" target="ifuIO5erZAr4vruJZzo0-4">
           <mxGeometry relative="1" as="geometry">
